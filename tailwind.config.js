@@ -9,7 +9,9 @@ module.exports = {
 		'./src/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
-		extend: {},
+		extend: {
+			slideUpCubiBezier: 'slideUp 1s cubic-bezier()',
+		},
 	},
 	plugins: [],
 };
