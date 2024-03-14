@@ -3,6 +3,11 @@ import React from 'react';
 import Image from 'next/image';
 import { Link } from 'react-scroll';
 import { HiArrowDown } from 'react-icons/hi';
+import { FaNode } from 'react-icons/fa';
+import { RiReactjsFill } from 'react-icons/ri';
+import { GrGraphQl } from 'react-icons/gr';
+import { SiNextdotjs, SiRedux } from 'react-icons/si';
+import { DiMongodb } from 'react-icons/di';
 
 const HeroSection = () => {
 	return (
@@ -18,24 +23,33 @@ const HeroSection = () => {
 					/>
 				</div>
 				<div className="md:mt-2 md:w-3/5">
-					<h1 className="font-bold text-4xl mt-6 md:text7xl md:mt-0">
-						Hi, Im Paul Alex.
+					<h1 className="font-bold sm:text-6xl text-4xl mt-6 md:text7xl md:mt-0">
+						Hi, I'm Paul Alex.
 					</h1>
-					<p className="text-lg mt-4 mb-6 md:text-2xl">
+					<p className="text-lg mt-4 mb-2 md:text-2xl">
 						A {''}
-						<span className="font-semibold text-orange-500">
+						<span className="font-semibold text-purple-500">
 							Software Developer
 						</span>
-						{''}& Problem solver.
+						{''} & Problem solver.
 					</p>
 					{/* <p>
 						This is a self made portfolio using NextJS but of simple layout for
 						user speed and experience
 					</p> */}
 					{/* add tech icons here */}
+					<div className="flex flex-row gap-4 py-4 mb-4">
+						<FaNode className="text-white" size={60} />
+						<RiReactjsFill className="text-cyan-400" size={60} />
+						<GrGraphQl className="text-pink-600" size={60} />
+						<SiNextdotjs className="text-white" size={60} />
+						<DiMongodb className="text-green-500" size={60} />
+						<SiRedux className="text-purple-500" size={60} />
+					</div>
+
 					<Link
 						to="projects"
-						className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+						className="text-white px-6 py-3 bg-transparent border-style-solid border-2 rounded shadow hover:bg-purple-500 cursor-pointer font-medium uppercase"
 						activeClass="active"
 						spy={true}
 						smooth={true}
