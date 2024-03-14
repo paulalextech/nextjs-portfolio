@@ -36,6 +36,11 @@ const Footer = () => {
 					</a>
 				</div>
 			</div>
+			<div>
+				<button className="border-style-solid border-2 border-slate-50 mx-auto flex text-white font-medium px-4 rounded-md uppercase hover:bg-purple-500">
+					<Link to="home">Back to Top</Link>
+				</button>
+			</div>
 		</footer>
 	);
 };
