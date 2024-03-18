@@ -10,7 +10,10 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			slideUpCubiBezier: 'slideUp 1s cubic-bezier()',
+			slideUp: {
+				from: { transform: 'translateY(100%)' },
+				to: { transform: 'translateY(0)' },
+			},
 		},
 	},
 	plugins: [],

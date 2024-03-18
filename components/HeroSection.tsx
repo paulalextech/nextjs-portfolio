@@ -8,6 +8,7 @@ import { RiReactjsFill } from 'react-icons/ri';
 import { GrGraphQl } from 'react-icons/gr';
 import { SiNextdotjs, SiRedux } from 'react-icons/si';
 import { DiMongodb } from 'react-icons/di';
+import { SiTypescript } from 'react-icons/si';
 
 const HeroSection = () => {
 	return (
@@ -39,12 +40,12 @@ const HeroSection = () => {
 					</p> */}
 					{/* add tech icons here */}
 					<div className="flex flex-row gap-4 py-4 mb-4">
-						<FaNode className="text-white" size={60} />
 						<RiReactjsFill className="text-cyan-400" size={60} />
+						<FaNode className="text-white" size={60} />
+						<SiTypescript className="text-blue-500" size={60} />
 						<GrGraphQl className="text-pink-600" size={60} />
 						<SiNextdotjs className="text-white" size={60} />
 						<DiMongodb className="text-green-500" size={60} />
-						<SiRedux className="text-purple-500" size={60} />
 					</div>
 
 					<Link
