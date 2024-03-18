@@ -7,7 +7,7 @@ const projects = [
 	{
 		name: 'Crushing Candy Game',
 		description:
-			'One of the most addictive pocket games, potentially every created! 2012 when this addictive game first came out! Its rumoured no one has ever completed it.',
+			'TypeScript - ReactJS - CSS // One of the most addictive pocket games, potentially every created! 2012 when this addictive game first came out! Its rumoured no one has ever completed it.',
 		image: '/crush.png',
 		github: 'https://github.com/paulalextech/crush-candy',
 		link: 'https://crushing-candy-game.netlify.app/',
@@ -15,7 +15,7 @@ const projects = [
 	{
 		name: 'Google Search Engine',
 		description:
-			'Following a visit to Google, I decided to replicate the one thing most people know Google for.',
+			'NextJS - Tailwind CSS // Following a visit to Google, I decided to replicate the one thing most people know Google for.',
 		image: '/googlemain.png',
 		github: 'https://github.com/paulalextech/google-nextjs',
 		link: '/',
@@ -23,7 +23,7 @@ const projects = [
 	{
 		name: 'Meteorology Application',
 		description:
-			'API functioning weather application. Enter a holiday destination keep an eye on the background.',
+			'ReactJS - Tailwind CSS - API functioning weather application. Enter a holiday destination keep an eye on the background.',
 		image: '/weather.png',
 		github: 'https://github.com/paulalextech/weather-app',
 		link: 'https://weather-app-paulalex.netlify.app/',
