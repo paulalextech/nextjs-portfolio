@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { Link } from 'react-scroll/modules';
+import { usePathname } from 'next/navigation';
 import { useTheme } from 'next-themes';
 import { RiMoonFill, RiSunLine } from 'react-icons/ri';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
@@ -24,8 +25,8 @@ const NAV_ITEMS: Array<NavItem> = [
 const Navbar = () => {
 	const { systemTheme, theme, setTheme } = useTheme();
 	const currentTheme = theme === 'system' ? systemTheme : theme;
+	const pathname = usePathname();
 	const [navbar, setNavbar] = useState(false);
-
 	return (
 		<header className="w-full mx-auto px-4 sm:px-20 bg-white shadow fixed top-0 z-50  dark:bg-stone-950 dark:border-b dark:border-stone-600">
 			<div className="justify-between md:items-center md:flex">
@@ -70,16 +71,16 @@ const Navbar = () => {
 									</Link>
 								);
 							})}
-							{currentTheme === 'light' ? (
+							{currentTheme === 'dark' ? (
 								<button
-									onClick={() => setTheme('dark')}
+									onClick={() => setTheme('light')}
 									className="bg-slate-100 p-2 rounded-xl"
 								>
 									<RiSunLine size={25} color="black" />
 								</button>
 							) : (
 								<button
-									onClick={() => setTheme('light')}
+									onClick={() => setTheme('dark')}
 									className="bg-slate-100 p-2 rounded-xl"
 								>
 									<RiMoonFill size={25} color="black" />
@@ -92,5 +93,4 @@ const Navbar = () => {
 		</header>
 	);
 };
-
 export default Navbar;
