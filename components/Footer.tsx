@@ -10,7 +10,7 @@ const Footer = () => {
 				<div>
 					©2024{' '}
 					<Link className="cursor-pointer" to="home">
-						PAUL ALEX
+						PAUL ALEX TECH
 					</Link>
 				</div>
 				<div className="flex flex-row items-center justify-center space-x-3 mb-2">
