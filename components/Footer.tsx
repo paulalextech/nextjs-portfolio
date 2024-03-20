@@ -7,9 +7,9 @@ const Footer = () => {
 		<footer className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
 			<hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0" />
 			<div className="mx-auto p-4 flex flex-col text-center text-neutral-200 md:flex-row md:justify-between">
-				<div>
+				<div className="text-slate-950 dark:text-white">
 					©2024{' '}
-					<Link className="cursor-pointer" to="home">
+					<Link className="cursor-pointer " to="home">
 						PAUL ALEX TECH
 					</Link>
 				</div>
@@ -37,7 +37,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div>
-				<button className="border-style-solid border-2 border-slate-50 mx-auto flex text-white font-medium px-4 rounded-md uppercase hover:bg-purple-500">
+				<button className="text-slate-950 dark:text-white border-style-solid border-2 dark:border-slate-50 border-gray-950 mx-auto flex font-medium px-4 rounded-md uppercase hover:bg-purple-500">
 					<Link to="home">Back to Top</Link>
 				</button>
 			</div>
