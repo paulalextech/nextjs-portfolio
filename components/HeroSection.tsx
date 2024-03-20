@@ -41,16 +41,16 @@ const HeroSection = () => {
 					{/* add tech icons here */}
 					<div className="flex flex-row gap-4 py-4 mb-4">
 						<RiReactjsFill className="text-cyan-400" size={60} />
-						<FaNode className="text-white" size={60} />
+						<FaNode className="text-green-500 dark:text-white" size={60} />
 						<SiTypescript className="text-blue-500" size={60} />
 						<GrGraphQl className="text-pink-600" size={60} />
-						<SiNextdotjs className="text-white" size={60} />
+						<SiNextdotjs className="text-slate-950 dark:text-white" size={60} />
 						<DiMongodb className="text-green-500" size={60} />
 					</div>
 
 					<Link
 						to="projects"
-						className="text-white px-6 py-3 bg-transparent border-style-solid border-2 rounded shadow hover:bg-purple-500 cursor-pointer font-medium uppercase"
+						className="text-slate-950 dark:text-white px-6 py-3 bg-transparent border-style-solid border-2 dark:border-slate-50 border-gray-950 rounded shadow hover:bg-purple-500 cursor-pointer font-medium uppercase"
 						activeClass="active"
 						spy={true}
 						smooth={true}
