@@ -13,7 +13,7 @@ import { SiTypescript } from 'react-icons/si';
 const HeroSection = () => {
 	return (
 		<section id="home">
-			<div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-28">
+			<div className="flex flex-col height-100vh text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-28">
 				<div className="md:w-1/2 md:mt-2">
 					<Image
 						className="rounded-full shadow-2xl"
@@ -29,7 +29,7 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-lg mt-4 mb-2 md:text-2xl">
 						A {''}
-						<span className="font-semibold text-purple-500">
+						<span className="font-semibold text-cyan-500">
 							Software Developer
 						</span>
 						{''} & Problem solver.
