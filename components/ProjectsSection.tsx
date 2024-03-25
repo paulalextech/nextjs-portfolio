@@ -7,7 +7,7 @@ const projects = [
 	{
 		name: 'Crushing Candy Game',
 		description:
-			'TypeScript - ReactJS - CSS // One of the most addictive pocket games, potentially every created! 2012 when this addictive game first came out! Its rumoured no one has ever completed it.',
+			'TypeScript - ReactJS - CSS // One of the most addictive pocket games, ever created! Its rumoured no one has ever completed.',
 		image: '/crush.png',
 		github: 'https://github.com/paulalextech/crush-candy',
 		link: 'https://crushing-candy-game.netlify.app/',
@@ -31,7 +31,7 @@ const projects = [
 	{
 		name: 'Expense Tracker Application',
 		description:
-			'VueJS // Expense tracker application providing user ability to track expenses, add, subtract purchases to paychecks.',
+			'VueJS - HTML - CSS - JavaScript // Expense tracker providing user ability to track expenses.',
 		image: '/expense.png',
 		github: 'https://github.com/paulalextech/vue-expense-tracker',
 		link: 'https://vue-expense-tracker-six-puce.vercel.app/',
