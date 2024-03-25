@@ -23,10 +23,18 @@ const projects = [
 	{
 		name: 'Meteorology Application',
 		description:
-			'ReactJS - Tailwind CSS - API functioning weather application. Enter a holiday destination keep an eye on the background.',
+			'ReactJS - Tailwind CSS // API weather application. Enter a holiday destination keep an eye on the background.',
 		image: '/weather.png',
 		github: 'https://github.com/paulalextech/weather-app',
 		link: 'https://weather-app-paulalex.netlify.app/',
+	},
+	{
+		name: 'Expense Tracker Application',
+		description:
+			'VueJS // Expense tracker application providing user ability to track expenses, add, subtract purchases to paychecks.',
+		image: '/expense.png',
+		github: 'https://github.com/paulalextech/vue-expense-tracker',
+		link: 'https://vue-expense-tracker-six-puce.vercel.app/',
 	},
 ];
 
