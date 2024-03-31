@@ -29,10 +29,8 @@ const HeroSection = () => {
 					</h1>
 					<p className="text-xl mt-4 mb-2 md:text-3xl">
 						A {''}
-						<span className="font-semibold text-purple-500">
-							Software Developer
-						</span>
-						{''} & Problem solver.
+						<span className="font-semibold text-purple-500">Full-Stack</span>
+						{''} Software Developer.
 					</p>
 					{/* <p>
 						This is a self made portfolio using NextJS but of simple layout for
