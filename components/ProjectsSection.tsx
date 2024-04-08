@@ -12,14 +12,22 @@ const projects = [
 		github: 'https://github.com/paulalextech/crush-candy',
 		link: 'https://crushing-candy-game.netlify.app/',
 	},
+	// {
+	// 	name: 'Google Search Engine',
+	// 	description:
+	// 		'NextJS - Tailwind CSS // Following a visit to Google, I decided to replicate the one thing most people know Google for.',
+	// 	image: '/googlemain.png',
+	// 	github: 'https://github.com/paulalextech/google-nextjs',
+	// 	link: '/',
+	// },
 	{
-		name: 'Google Search Engine',
-		description:
-			'NextJS - Tailwind CSS // Following a visit to Google, I decided to replicate the one thing most people know Google for.',
-		image: '/googlemain.png',
-		github: 'https://github.com/paulalextech/google-nextjs',
-		link: '/',
+		name: 'APOD Project',
+		description: 'ReactJS - CSS - Vite // NASA realtime API Astronomy Picture.',
+		image: '/galaxy.png',
+		github: 'https://github.com/paulalextech/nasa-react-app',
+		link: 'https://nasa-react-app.vercel.app/',
 	},
+
 	{
 		name: 'Meteorology Application',
 		description:
