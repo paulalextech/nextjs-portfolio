@@ -22,7 +22,8 @@ const projects = [
 	// },
 	{
 		name: 'APOD Project',
-		description: 'ReactJS - CSS - Vite // NASA realtime API Astronomy Picture.',
+		description:
+			'ReactJS - CSS - Vite // Astronomy Picture application using live open source NASA realtime API.',
 		image: '/galaxy.png',
 		github: 'https://github.com/paulalextech/nasa-react-app',
 		link: 'https://nasa-react-app.vercel.app/',
