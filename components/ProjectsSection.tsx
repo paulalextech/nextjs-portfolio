@@ -12,16 +12,8 @@ const projects = [
 		github: 'https://github.com/paulalextech/crush-candy',
 		link: 'https://crushing-candy-game.netlify.app/',
 	},
-	// {
-	// 	name: 'Google Search Engine',
-	// 	description:
-	// 		'NextJS - Tailwind CSS // Following a visit to Google, I decided to replicate the one thing most people know Google for.',
-	// 	image: '/googlemain.png',
-	// 	github: 'https://github.com/paulalextech/google-nextjs',
-	// 	link: '/',
-	// },
 	{
-		name: 'APOD Project',
+		name: 'Astronomy Picture of the Project',
 		description:
 			'ReactJS - CSS - Vite // Astronomy Picture application using live open source NASA realtime API.',
 		image: '/galaxy.png',
