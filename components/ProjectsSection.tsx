@@ -18,7 +18,7 @@ const projects = [
 			'ReactJS - CSS - Vite // Astronomy Picture application using live open source NASA realtime API.',
 		image: '/galaxy.png',
 		github: 'https://github.com/paulalextech/nasa-react-app',
-		link: 'https://nasa-react-app.vercel.app/',
+		link: 'https://apod-reactjs-project.netlify.app',
 	},
 
 	{
