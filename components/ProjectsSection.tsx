@@ -2,8 +2,16 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
+import { link } from 'fs';
 
 const projects = [
+	{
+		name: '1896 Lifts',
+		description: 'ReactJS - TailwindCSS // Strength training application.',
+		image: '/athens.png',
+		github: 'https://github.com/paulalextech/1896-lifts',
+		link: 'https://1896lifts.netlify.app/',
+	},
 	{
 		name: 'Crushing Candy Game',
 		description:
