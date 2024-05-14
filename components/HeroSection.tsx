@@ -10,6 +10,8 @@ import { GrGraphQl } from 'react-icons/gr';
 import { SiNextdotjs, SiRedux } from 'react-icons/si';
 import { DiMongodb } from 'react-icons/di';
 import { SiTypescript } from 'react-icons/si';
+import { FaPython } from 'react-icons/fa';
+import { SiPython } from 'react-icons/si';
 
 const HeroSection = () => {
 	return (
@@ -45,6 +47,8 @@ const HeroSection = () => {
 						<GrGraphQl className="text-pink-600" size={60} />
 						<SiNextdotjs className="text-slate-950 dark:text-white" size={60} />
 						<DiMongodb className="text-green-500" size={60} />
+						{/* <FaPython className="" size={60} /> */}
+						<SiPython className="text-blue-400" size={60} />
 					</div>
 
 					<Link
