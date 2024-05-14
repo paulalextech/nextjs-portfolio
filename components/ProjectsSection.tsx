@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 import { link } from 'fs';
+import { RiReactjsFill } from 'react-icons/ri';
 
 const projects = [
 	{
@@ -75,6 +76,8 @@ const ProjectsSection = () => {
 									<h1 className="text-4xl font-bold mb-6">{project.name}</h1>
 									<p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
 										{project.description}
+
+										{/* insert icons here */}
 									</p>
 									<div className="flex flex-row align-bottom space-x-4">
 										<Link href={project.github} target="_blank">
